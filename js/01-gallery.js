@@ -1,7 +1,7 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
-//console.log(galleryItems);
+console.log(galleryItems);
 
 const gallery = document.querySelector(".gallery");
 
@@ -30,7 +30,7 @@ function galerryImage(event) {
         onClose: (instance) => {
         document.removeEventListener('keydown',imgEsc)
     }});
-    
+
     function imgEsc(event) {
         console.log(event.key)
      if (event.key === "Escape") {
