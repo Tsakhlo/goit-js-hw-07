@@ -30,6 +30,7 @@ function galerryImage(event) {
         onClose: (instance) => {
         document.removeEventListener('keydown',imgEsc)
     }});
+    
     function imgEsc(event) {
         console.log(event.key)
      if (event.key === "Escape") {
